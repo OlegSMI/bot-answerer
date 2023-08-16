@@ -7,3 +7,18 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
+
+// анимация
+.open-window-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.open-window-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.2, 0.28, 1);
+}
+
+.open-window-enter-from,
+.open-window-leave-to {
+  transform: translateY(50px);
+  opacity: 0;
+}

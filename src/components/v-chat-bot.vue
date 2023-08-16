@@ -133,10 +133,8 @@ function sendMessage() {
         display: block;
       }
     }
-
     .chat-messages {
       height: 80%;
-      // padding: 25px 15px 100px;
     }
   }
 }
